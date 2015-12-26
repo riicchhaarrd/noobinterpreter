@@ -1,5 +1,6 @@
 # noobinterpreter
 Small script language interpreter written in C due to boredom
+//TODO finish interpreter, compile to vm
 
 # Example Script
 
