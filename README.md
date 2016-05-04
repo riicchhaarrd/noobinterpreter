@@ -1,27 +1,13 @@
 # noobinterpreter
 Small script language interpreter written in C due to boredom
-//TODO finish interpreter, compile to vm
+I might update/work on it maybe someday
 
-# Example Script
+You need to add own xalloc stuff etc to compile
 
-var txt;
+//TODO
+* Wanted to rewrite to vm for easier thread/coroutine stuff (GSC thread, wait)
+* More native types, rewrite the ipr_factor stuff
+* Stack local vars etc
+* Finish interpreter, compile to vm
 
-var lel;
-
-txt = "test 2";
-
-lel = "test";
-
-print(txt,lel);
-
-var a;
-
-a = 3;
-
-a += 4;
-
-var result;
-
-result = "3 plus 4 is ";
-
-print(result, a);
+file.i is example script
